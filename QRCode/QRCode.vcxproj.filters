@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VisionSDK">
+      <UniqueIdentifier>{b2eea614-3c95-43ab-8277-811c64edbc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraSDK">
+      <UniqueIdentifier>{ff2d452f-a128-4906-9845-691a135748a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonUI">
+      <UniqueIdentifier>{721be7f0-1758-4074-8d54-42ad012921ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MesWebService">
+      <UniqueIdentifier>{995dcd8a-fc8a-496c-8a68-ee86cec2a5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYCameraSDK">
+      <UniqueIdentifier>{a76b961a-e164-40ee-95d9-464ac5213757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QRCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCodeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\BarcodeDotProcess.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\ClsVision.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\DMDotProcess.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\DotProcess.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\LibraryVisionUnit.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\PDFDotProcess.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\QRDotProcess.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VisionSDK\typesdef.h">
+      <Filter>VisionSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CameraSDK\DeviceProcess.h">
+      <Filter>CameraSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CameraSDK\Fps.h">
+      <Filter>CameraSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CameraSDK\GXBitmap.h">
+      <Filter>CameraSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CameraSDK\StopWatch.h">
+      <Filter>CameraSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CameraSDK\CameraEngine.h">
+      <Filter>CameraSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonUI\AccordionWnd.h">
+      <Filter>CommonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PageInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTestList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonUI\MilPreview.h">
+      <Filter>CommonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MesWebService\soapH.h">
+      <Filter>MesWebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MesWebService\soapStub.h">
+      <Filter>MesWebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MesWebService\stdsoap2.h">
+      <Filter>MesWebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MesWebService\MesManager.h">
+      <Filter>MesWebService</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AoiManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageCurrentResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonUI\IndicatorListWnd.h">
+      <Filter>CommonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DishAnalyse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResendDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QRCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCodeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\BarcodeDotProcess.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\ClsVision.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\DMDotProcess.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\DotProcess.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\LibraryVisionUnit.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\PDFDotProcess.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VisionSDK\QRDotProcess.cpp">
+      <Filter>VisionSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CameraSDK\DeviceProcess.cpp">
+      <Filter>CameraSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CameraSDK\Fps.cpp">
+      <Filter>CameraSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CameraSDK\GXBitmap.cpp">
+      <Filter>CameraSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CameraSDK\CameraEngine.cpp">
+      <Filter>CameraSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonUI\AccordionWnd.cpp">
+      <Filter>CommonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PageInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTestList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonUI\MilPreview.cpp">
+      <Filter>CommonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MesWebService\soapC.cpp">
+      <Filter>MesWebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MesWebService\soapClient.cpp">
+      <Filter>MesWebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MesWebService\stdsoap2.cpp">
+      <Filter>MesWebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MesWebService\MesManager.cpp">
+      <Filter>MesWebService</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AoiManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageCurrentResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonUI\IndicatorListWnd.cpp">
+      <Filter>CommonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DishAnalyse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResendDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QRCode.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\QRCode.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\rt_manif.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\MesWebService\WebServerSoap.nsmap">
+      <Filter>MesWebService</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\QRCode.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\CameraTest\res\application.exe.manifest" />
+  </ItemGroup>
+</Project>
