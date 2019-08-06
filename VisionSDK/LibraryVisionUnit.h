@@ -53,7 +53,7 @@ void CreateNccModelApi(HalconCpp::HObject& hObject, double angleLimit, int& idRe
 //21. 查找模板
 void FindNccModelApi(HalconCpp::HObject& hObject, int idModel, double minScore, double& xResult, double& yResult, double& angleResult, double& scoreResult);
 
-//22. 释放模板 jiang, 2019-08-06
+//22. 释放模板 jiang, 2019-08-06， 9:00 AM
 void ClearNccModelApi(int idModel);
 
 #endif // !LIBRARY_VISION_UNIT_H
